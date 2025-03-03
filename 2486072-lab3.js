@@ -5,9 +5,6 @@ function getMusicTitlesByYear(music_tracks){
             const correct = track[item.year];
             correct.push(item.title);
         }
-        else if(track[item.year] != int){
-            console.log('year is not a number')
-        }
         else{
             track[item.year]=[item.title];
         }
